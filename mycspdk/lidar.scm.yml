@@ -1,0 +1,70 @@
+camera_transform:
+  translation:
+    x: 1006.1008
+    y: -124.91602
+    z: 0.0
+  rotation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  scale:
+    x: 1.4738896
+    y: 1.4738896
+    z: 1.0
+transforms:
+  dbr:
+    translation:
+      x: 1352.7727
+      y: 195.07584
+      z: 0.1
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  s:
+    translation:
+      x: 686.62146
+      y: -67.03363
+      z: 0.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+port_configs:
+  dbr:
+    o1:
+      orientation: w
+      port_type: optical
+      index: 0.0
+  splitter_tree:
+    o1_0_0:
+      orientation: w
+      port_type: optical
+      index: 0.0
+    o2_1_1:
+      orientation: e
+      port_type: optical
+      index: -12.5
+    o2_1_2:
+      orientation: e
+      port_type: optical
+      index: -37.5
+    o2_1_3:
+      orientation: e
+      port_type: optical
+      index: 37.5
+    o2_1_4:
+      orientation: e
+      port_type: optical
+      index: 12.5
