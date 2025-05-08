@@ -1,0 +1,18 @@
+{
+  "name": "Python + uv",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+
+  "features": {
+    "ghcr.io/devcontainers/features/rust:1": {}
+  },
+
+  "postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+
+  "postStartCommand": "~/.cargo/bin/uv sync",
+
+  "customizations": {
+    "vscode": {
+      "extensions": ["gdsfactory.gdsfactoryplus"]
+    }
+  }
+}
