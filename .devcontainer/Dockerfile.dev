@@ -29,9 +29,3 @@ USER ${USER}
 # Ensure your base image has all the necessary libraries or install them before switching users
 RUN pip install .
 RUN curl -LsSf https://astral.sh/uv/install.sh | sh
-
-# Install VSCode extension for GDSFactory
-RUN mkdir -p /root/.vscode-server/extensions && \
-    curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/gdsfactory/vsextensions/gdsfactory/latest/vspackage -o /tmp/gdsfactory.vsix && \
-    unzip -q /tmp/gdsfactory.vsix -d /root/.vscode-server/extensions/gdsfactory.gdsfactory && \
-    rm /tmp/gdsfactory.vsix

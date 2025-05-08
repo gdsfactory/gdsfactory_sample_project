@@ -11,7 +11,8 @@
       "extensions": [
         "ms-toolsai.jupyter",
         "ms-python.python",
-        "congyiwu.vscode-jupytext"
+        "congyiwu.vscode-jupytext",
+        "gdsfactory.gdsfactoryplus"
       ]
     }
   }
