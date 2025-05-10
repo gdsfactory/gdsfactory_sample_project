@@ -17,7 +17,9 @@
       "extensions": ["gdsfactory.gdsfactoryplus"],
       "settings": {
         "terminal.integrated.defaultProfile.linux": "bash",
-        "remote.SSH.showLoginTerminal": true
+        "remote.SSH.showLoginTerminal": true,
+        "dev.containers.autoRestart": true,
+        "dev.containers.rebuildOnStartup": true
       }
     }
   },
@@ -35,5 +37,15 @@
 
   "mounts": [
     "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolder},type=bind"
-  ]
+  ],
+
+  "build": {
+    "args": {
+      "DEBIAN_FRONTEND": "noninteractive"
+    }
+  },
+
+  "remoteEnv": {
+    "DEBIAN_FRONTEND": "noninteractive"
+  }
 }
