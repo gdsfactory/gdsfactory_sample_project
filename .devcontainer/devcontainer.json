@@ -10,9 +10,30 @@
 
   "postStartCommand": "~/.cargo/bin/uv sync",
 
+  "workspaceFolder": "/workspaces/${localWorkspaceFolder}",
+
   "customizations": {
     "vscode": {
-      "extensions": ["gdsfactory.gdsfactoryplus"]
+      "extensions": ["gdsfactory.gdsfactoryplus"],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "remote.SSH.showLoginTerminal": true
+      }
     }
-  }
+  },
+
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": true,
+  "forwardPorts": [8080],
+  "shutdownAction": "none",
+
+  "environment": {
+    "PATH": "${containerEnv:PATH}:${HOME}/.cargo/bin",
+    "RUSTUP_HOME": "${HOME}/.rustup",
+    "CARGO_HOME": "${HOME}/.cargo"
+  },
+
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolder},type=bind"
+  ]
 }
