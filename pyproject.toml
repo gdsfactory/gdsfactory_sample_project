@@ -38,8 +38,8 @@ timeout = 300
 name = "cspdk.si220"
 
 [tool.gdsfactoryplus.sim.wls]
-max = 1.5
-min = 1.6
+max = 1.6
+min = 1.5
 num = 1000
 
 [tool.pyright]
