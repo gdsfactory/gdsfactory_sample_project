@@ -13,18 +13,18 @@ layer1 = LAYER.WG
 
 
 @gf.cell
-def _width_min(size: Float2 = (0.1, 0.1)) -> Component:
+def width_min(size: Float2 = (0.1, 0.1)) -> Component:
     return gf.components.rectangle(size=size, layer=layer)
 
 
 @gf.cell
-def _area_min() -> Component:
+def area_min() -> Component:
     size = (0.2, 0.2)
     return gf.components.rectangle(size=size, layer=layer)
 
 
 @gf.cell
-def _gap_min(gap: float = 0.1) -> Component:
+def gap_min(gap: float = 0.1) -> Component:
     c = gf.Component()
     r1 = c << gf.components.rectangle(size=(1, 1), layer=layer)
     r2 = c << gf.components.rectangle(size=(1, 1), layer=layer)
@@ -34,7 +34,7 @@ def _gap_min(gap: float = 0.1) -> Component:
 
 
 @gf.cell
-def _separation(
+def separation(
     gap: float = 0.1, layer1: Layer = (47, 0), layer2: Layer = (41, 0)
 ) -> Component:
     c = gf.Component()
@@ -46,7 +46,7 @@ def _separation(
 
 
 @gf.cell
-def _enclosing(
+def enclosing(
     enclosing: float = 0.1, layer1: Layer = (40, 0), layer2: Layer = (41, 0)
 ) -> Component:
     """Layer1 must be enclosed by layer2 by value.
@@ -64,10 +64,10 @@ def _enclosing(
 
 @gf.cell
 def sample_drc_errors() -> Component:
-    components = [_width_min(), _separation(), _enclosing()]
+    components = [width_min(), separation(), enclosing()]
 
     for gap in np.linspace(0.1, 0.2, 5):
-        components.append(_gap_min(gap=gap))
+        components.append(gap_min(gap=gap))
 
     c = gf.pack(components, spacing=1)
     c = gf.add_padding_container(c[0], layers=(LAYER.FLOORPLAN,), default=5)
