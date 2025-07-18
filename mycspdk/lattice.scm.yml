@@ -18,7 +18,7 @@ transforms:
     translation:
       x: 66.09802
       y: -206.27185
-      z: 0.1
+      z: 2.0
     rotation:
       x: 0.0
       y: 0.0
@@ -32,7 +32,7 @@ transforms:
     translation:
       x: 308.47977
       y: -140.38861
-      z: 0.2
+      z: 2.0
     rotation:
       x: 0.0
       y: 0.0
@@ -46,7 +46,7 @@ transforms:
     translation:
       x: 332.00003
       y: 29.000017
-      z: 0.3
+      z: 5.0
     rotation:
       x: 0.0
       y: 0.0
@@ -60,7 +60,7 @@ transforms:
     translation:
       x: -69.000015
       y: -70.0
-      z: 0.4
+      z: 5.0
     rotation:
       x: 0.0
       y: 0.0
@@ -74,7 +74,7 @@ transforms:
     translation:
       x: 493.0
       y: -126.0
-      z: 0.5
+      z: 5.0
     rotation:
       x: 0.0
       y: 0.0
@@ -102,3 +102,10 @@ port_configs:
       orientation: e
       port_type: optical
       index: 2.36
+sizes:
+  mzi1:
+    width: 100
+    height: 100
+  mzi2:
+    width: 100
+    height: 100

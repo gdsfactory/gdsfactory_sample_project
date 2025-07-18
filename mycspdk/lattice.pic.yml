@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=../build/schemas/lattice.json
 instances:
   mzi1:
     component: mzi
@@ -23,15 +24,15 @@ ports:
 placements:
   mzi1:
     x: -183.72
-    'y': 0
+    y: 0
     rotation: 0
     mirror: false
     dx: -3.851
     dy: -14.302
   mzi2:
     x: mzi1,o2
-    'y': 0
-    dx: 290.619
-    dy: 289.556
+    y: 0
+    dx: 288.422
+    dy: 194.401
     rotation: 0
     mirror: false
