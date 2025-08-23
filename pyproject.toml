@@ -6,11 +6,10 @@ requires = ["setuptools", "pip", "build", "wheel"]
 authors = [{name = "GDSFactory", email = "support@gdsfactory.com"}]
 classifiers = ["Programming Language :: Python :: 3.12"]
 dependencies = [
-  "cspdk==1.0.7",
-  "gdsfactoryplus>=0.54.5",
-  "gplugins[sax,femwell,tidy3d]~=1.4.0",
-  "meow-sim",
-  "scikit-learn"
+  "cspdk==1.0.9",
+  "gdsfactoryplus",
+  "gplugins[sax,femwell,tidy3d]~=1.4.2",
+  "meow-sim"
 ]
 description = "My cspdk demo project"
 keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
