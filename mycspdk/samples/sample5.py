@@ -3,7 +3,7 @@
 import gdsfactory as gf
 
 
-@gf.cell
+@gf.cell(tags=["sample"])
 def sample5_path():
     p = gf.Path()
     p += gf.path.arc(radius=10, angle=90)  # Circular arc

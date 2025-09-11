@@ -12,18 +12,18 @@ layer = LAYER.WG
 layer1 = LAYER.WG
 
 
-@gf.cell
+@gf.cell(tags=["errors"])
 def width_min(size: Float2 = (0.1, 0.1)) -> Component:
     return gf.components.rectangle(size=size, layer=layer)
 
 
-@gf.cell
+@gf.cell(tags=["errors"])
 def area_min() -> Component:
     size = (0.2, 0.2)
     return gf.components.rectangle(size=size, layer=layer)
 
 
-@gf.cell
+@gf.cell(tags=["errors"])
 def gap_min(gap: float = 0.1) -> Component:
     c = gf.Component()
     r1 = c << gf.components.rectangle(size=(1, 1), layer=layer)
@@ -33,7 +33,7 @@ def gap_min(gap: float = 0.1) -> Component:
     return c
 
 
-@gf.cell
+@gf.cell(tags=["errors"])
 def separation(
     gap: float = 0.1, layer1: Layer = (47, 0), layer2: Layer = (41, 0)
 ) -> Component:
@@ -45,7 +45,7 @@ def separation(
     return c
 
 
-@gf.cell
+@gf.cell(tags=["errors"])
 def enclosing(
     enclosing: float = 0.1, layer1: Layer = (40, 0), layer2: Layer = (41, 0)
 ) -> Component:
@@ -62,7 +62,7 @@ def enclosing(
     return c
 
 
-@gf.cell
+@gf.cell(tags=["errors"])
 def sample_drc_errors() -> Component:
     components = [width_min(), separation(), enclosing()]
 

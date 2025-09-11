@@ -3,7 +3,7 @@
 import gdsfactory as gf
 
 
-@gf.cell
+@gf.cell(tags=["sample"])
 def sample6_cross_section():
     p = gf.path.straight()
 
