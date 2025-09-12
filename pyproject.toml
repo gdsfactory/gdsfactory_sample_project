@@ -6,7 +6,7 @@ requires = ["setuptools", "pip", "build", "wheel"]
 authors = [{name = "GDSFactory", email = "support@gdsfactory.com"}]
 classifiers = ["Programming Language :: Python :: 3.12"]
 dependencies = [
-  "cspdk==1.0.9",
+  "cspdk==1.1.0",
   "gdsfactoryplus",
   "gplugins[sax,femwell,tidy3d]~=1.4.2",
   "meow-sim"
