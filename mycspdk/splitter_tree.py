@@ -1,7 +1,7 @@
 import gdsfactory as gf
 
 
-@gf.cell
+@gf.cell(tags=["splitter"])
 def splitter_tree(cross_section="strip", **kwargs) -> gf.Component:
     c = gf.c.splitter_tree(cross_section=cross_section, **kwargs)
     return c

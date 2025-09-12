@@ -4,7 +4,7 @@ import gdsfactory as gf
 import numpy as np
 
 
-@gf.cell
+@gf.cell(tags=["sample"])
 def sample4_pack():
     ellipses = [
         gf.components.ellipse(radii=tuple(np.random.rand(2) * n + 2)) for n in range(80)

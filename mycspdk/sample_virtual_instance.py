@@ -1,7 +1,7 @@
 import gdsfactory as gf
 
 
-@gf.cell
+@gf.cell(tags=["vinst"])
 def sample_virtual_instance() -> gf.Component:
     """Demo non manhattan virtual instance."""
     nm = 1e-3

@@ -11,7 +11,7 @@ layer = LAYER.WG
 layer1 = LAYER.WG
 
 
-@gf.cell
+@gf.cell(tags=["mesh"])
 def nxn(
     west: int = 1,
     east: int = 4,

@@ -4,7 +4,7 @@ import gdsfactory as gf
 from cspdk.si220.cband import cells
 
 
-@gf.cell
+@gf.cell(tags=["sample"])
 def sample1_connect() -> gf.Component:
     c = gf.Component()
     wg1 = c << cells.straight(length=1, width=1)
