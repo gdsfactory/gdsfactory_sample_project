@@ -1,0 +1,255 @@
+exploded: ''
+camera_transform:
+  translation:
+    x: 26.363247
+    y: -11.860194
+    z: 0.0
+  rotation:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  scale:
+    x: 0.82585925
+    y: 0.82585925
+    z: 1.0
+transforms:
+  c1:
+    translation:
+      x: -216.8937
+      y: 151.72398
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  c2:
+    translation:
+      x: 99.633705
+      y: 139.52077
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  h:
+    translation:
+      x: -263.22833
+      y: -124.39096
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  b2:
+    translation:
+      x: 77.20464
+      y: -179.47896
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  b1:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sl:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sr:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  b3:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  b4:
+    translation:
+      x: -70.390175
+      y: 162.90103
+      z: 2.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  o2:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 5.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  o4:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 5.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  o3:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 5.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  o1:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 5.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  e1:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 5.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  e2:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 5.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+sizes:
+  c1:
+    width: 100
+    height: 100
+  c2:
+    width: 100
+    height: 100
+  h:
+    width: 100
+    height: 100
+  b2:
+    width: 100
+    height: 100
+  b1:
+    width: 100
+    height: 100
+  sl:
+    width: 100
+    height: 100
+  sr:
+    width: 100
+    height: 100
+  b3:
+    width: 100
+    height: 100
+  b4:
+    width: 100
+    height: 100
+link_paths: []

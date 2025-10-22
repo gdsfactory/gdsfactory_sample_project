@@ -4,10 +4,11 @@ import gdsfactory as gf
 import numpy as np
 
 
-@gf.cell(tags=["sample"])
+@gf.cell
 def sample4_pack():
+    rng = np.random.default_rng()
     ellipses = [
-        gf.components.ellipse(radii=tuple(np.random.rand(2) * n + 2)) for n in range(80)
+        gf.components.ellipse(radii=tuple(rng.random(2) * n + 2)) for n in range(80)
     ]
     bins = gf.pack(
         ellipses,  # Must be a list or tuple of Components

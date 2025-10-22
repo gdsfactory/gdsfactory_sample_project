@@ -1,18 +1,12 @@
-__version__ = "0.0.0"
-
 import pathlib
 
-from cspdk.si220.cband import PDK
+from gdsfactory.config import CONF
 
 home = pathlib.Path.home()
 cwd = pathlib.Path.cwd()
 module_path = pathlib.Path(__file__).parent.absolute()
 repo_path = module_path.parent
 
+CONF.max_cellname_length = 64
 
-__all__ = ["PDK"]
-
-
-if __name__ == "__main__":
-    c = PDK.cells["ring_single"](cross_section="strip600")
-    c.show()
+__version__ = "0.0.0"
