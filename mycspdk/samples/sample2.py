@@ -3,7 +3,7 @@
 import gdsfactory as gf
 
 
-@gf.cell(tags=["sample"])
+@gf.cell
 def sample2_remove_layers() -> gf.Component:
     c = gf.Component()
 

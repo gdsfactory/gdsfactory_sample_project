@@ -6,10 +6,11 @@ requires = ["setuptools", "pip", "build", "wheel"]
 authors = [{name = "GDSFactory", email = "support@gdsfactory.com"}]
 classifiers = ["Programming Language :: Python :: 3.12"]
 dependencies = [
-  "cspdk==1.1.0",
+  "cspdk==1.2.2",
   "gdsfactoryplus",
   "gplugins[sax,femwell,tidy3d]~=1.4.2",
-  "meow-sim"
+  "meow-sim",
+  "scikit-learn"
 ]
 description = "My cspdk demo project"
 keywords = ["eda", "photonics", "python", "cspdk", "cornerstone"]
@@ -49,6 +50,8 @@ reportUnusedCallResult = false
 reportUnusedExpression = false
 
 [tool.ruff]
+
+[tool.ruff.lint]
 ignore = [
   "B008",  # do not perform function calls in argument defaults
   "B028",  # stacklevel
@@ -75,7 +78,7 @@ select = [
   "W"  # pycodestyle warnings
 ]
 
-[tool.ruff.pydocstyle]
+[tool.ruff.lint.pydocstyle]
 convention = "google"
 
 [tool.setuptools.package-data]

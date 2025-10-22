@@ -5,7 +5,7 @@ from __future__ import annotations
 import gdsfactory as gf
 
 
-@gf.cell(tags=["sample"])
+@gf.cell
 def sample0_hello_world() -> gf.Component:
     c = gf.Component()
     ref1 = c.add_ref(gf.components.rectangle(size=(10, 10), layer=(1, 0)))

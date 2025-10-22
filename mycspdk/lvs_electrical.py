@@ -6,7 +6,7 @@ import gdsfactory as gf
 from cspdk.si220.cband import cells
 
 
-@gf.cell(tags=["pads"])
+@gf.cell
 def pads_correct(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     """Returns 2 pads connected with metal wires."""
     c = gf.Component()
@@ -41,7 +41,7 @@ def pads_correct(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     return c
 
 
-@gf.cell(tags=["pads"])
+@gf.cell
 def pads_shorted(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     """Returns 2 pads connected with metal wires."""
     c = gf.Component()
