@@ -1,14 +1,15 @@
+# yaml-language-server: $schema=../build/schemas/pads.json
 instances:
   p1:
     component: pad
     settings: {}
-  p4:
+  p2:
     component: pad
     settings: {}
   p3:
     component: pad
     settings: {}
-  p2:
+  p4:
     component: pad
     settings: {}
 connections: {}
@@ -16,19 +17,11 @@ routes:
   m1:
     links:
       p2,e1: p1,e3
+      p4,e1: p3,e3
     routing_strategy: route_bundle
     settings:
       cross_section: metal_routing
       port_type: electrical
-  my_bundle:
-    links:
-      p4,e1: p3,e3
-    routing_strategy: route_bundle_metal
-    settings:
-      bend: bend_euler
-      port_type: electrical
-      straight: straight
-      taper: taper
 nets: []
 ports: {}
 placements:
@@ -37,9 +30,9 @@ placements:
     dy: 99.216
     rotation: 0
     mirror: false
-  p4:
-    dx: 286.896
-    dy: -177.665
+  p2:
+    dx: 264.234
+    dy: 89.019
     rotation: 0
     mirror: false
   p3:
@@ -47,8 +40,8 @@ placements:
     dy: -103.145
     rotation: 0
     mirror: false
-  p2:
-    dx: 264.234
-    dy: 89.019
+  p4:
+    dx: 286.896
+    dy: -177.665
     rotation: 0
     mirror: false

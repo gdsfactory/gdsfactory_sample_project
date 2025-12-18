@@ -7,7 +7,7 @@ module = pathlib.Path(__file__).parent.absolute()
 gds = module / "gds"
 
 
-@gf.cell(tags=["sample"])
+@gf.cell
 def sample_crossing_from_gds() -> gf.Component:
     """Sample of a crossing imported from GDS. DO NOT USE THIS IN PRODUCTION."""
     layer = LAYER.WG

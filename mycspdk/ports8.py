@@ -1,8 +1,7 @@
 import gdsfactory as gf
-from cspdk.si220.cband import cells
 
 
-@gf.cell(tags=["sample"])
+@gf.cell
 def ports8() -> gf.Component:
     c = gf.Component()
     c.add_polygon([(0, 0), (10, 0), (10, 10), (0, 10)], layer=(1, 0))

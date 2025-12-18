@@ -2,480 +2,134 @@ exploded: ''
 camera_transform:
   translation:
     x: 231.17781
-    'y': 118.85637
-    z: 0
+    y: 118.85637
+    z: 0.0
   rotation:
-    x: 0
-    'y': 0
-    z: 0
-    w: 1
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
   scale:
     x: 1.3171101
-    'y': 1.3171101
-    z: 1
+    y: 1.3171101
+    z: 1.0
 transforms:
-  ring2:
-    translation:
-      x: -20.000015
-      'y': -202
-      z: 0.1
-    rotation:
-      x: 0
-      'y': 0
-      z: 0
-      w: 1
-    scale:
-      x: 1
-      'y': 1
-      z: 1
-  ring1:
-    translation:
-      x: -208.84277
-      'y': -196.89056
-      z: 0.2
-    rotation:
-      x: 0
-      'y': 0
-      z: 0
-      w: 1
-    scale:
-      x: 1
-      'y': 1
-      z: 1
   d:
     translation:
       x: -263.0058
-      'y': -32.655502
-      z: 0.4
+      y: -32.655502
+      z: 1.0
     rotation:
-      x: 0
-      'y': 0
-      z: 0
-      w: 1
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
     scale:
-      x: 1
-      'y': 1
-      z: 1
+      x: 1.0
+      y: 1.0
+      z: 1.0
   m2:
     translation:
       x: 203.24066
-      'y': 293.53812
-      z: 9990
+      y: 293.53812
+      z: 1.0
     rotation:
-      x: 0
-      'y': 0
-      z: 0
-      w: 1
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
     scale:
-      x: 1
-      'y': 1
-      z: 1
+      x: 1.0
+      y: 1.0
+      z: 1.0
   o1:
     translation:
       x: -330.18558
-      'y': -81.754166
-      z: 0.5
+      y: -81.754166
+      z: 1.0
     rotation:
-      x: 0
-      'y': 0
-      z: 0
-      w: 1
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
     scale:
-      x: 1
-      'y': 1
-      z: 1
+      x: 1.0
+      y: 1.0
+      z: 1.0
   o2:
     translation:
       x: 167.00003
-      'y': -28.000004
-      z: 0.6
+      y: -28.000004
+      z: 1.0
     rotation:
-      x: 0
-      'y': 0
-      z: 0
-      w: 1
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
     scale:
-      x: 1
-      'y': 1
-      z: 1
-port_configs:
-  die_with_pads:
-    o13:
-      orientation: e
-      port_type: optical
-      index: 1375
-    o14:
-      orientation: e
-      port_type: optical
-      index: 1125
-    o15:
-      orientation: e
-      port_type: optical
-      index: 875
-    o16:
-      orientation: e
-      port_type: optical
-      index: 625
-    o17:
-      orientation: e
-      port_type: optical
-      index: 375
-    o18:
-      orientation: e
-      port_type: optical
-      index: 125
-    o19:
-      orientation: e
-      port_type: optical
-      index: -125
-    o20:
-      orientation: e
-      port_type: optical
-      index: -375
-    o21:
-      orientation: e
-      port_type: optical
-      index: -625
-    o22:
-      orientation: e
-      port_type: optical
-      index: -875
-    o23:
-      orientation: e
-      port_type: optical
-      index: -1125
-    o24:
-      orientation: e
-      port_type: optical
-      index: -1375
-    o1:
-      orientation: w
-      port_type: optical
-      index: -1375
-    o2:
-      orientation: w
-      port_type: optical
-      index: -1125
-    o3:
-      orientation: w
-      port_type: optical
-      index: -875
-    o4:
-      orientation: w
-      port_type: optical
-      index: -625
-    o5:
-      orientation: w
-      port_type: optical
-      index: -375
-    o6:
-      orientation: w
-      port_type: optical
-      index: -125
-    o7:
-      orientation: w
-      port_type: optical
-      index: 125
-    o8:
-      orientation: w
-      port_type: optical
-      index: 375
-    o9:
-      orientation: w
-      port_type: optical
-      index: 625
-    o10:
-      orientation: w
-      port_type: optical
-      index: 875
-    o11:
-      orientation: w
-      port_type: optical
-      index: 1125
-    o12:
-      orientation: w
-      port_type: optical
-      index: 1375
-    e62:
-      orientation: s
-      port_type: electrical
-      index: -4455
-    e61:
-      orientation: s
-      port_type: electrical
-      index: -4155
-    e60:
-      orientation: s
-      port_type: electrical
-      index: -3855
-    e59:
-      orientation: s
-      port_type: electrical
-      index: -3555
-    e58:
-      orientation: s
-      port_type: electrical
-      index: -3255
-    e57:
-      orientation: s
-      port_type: electrical
-      index: -2955
-    e56:
-      orientation: s
-      port_type: electrical
-      index: -2655
-    e55:
-      orientation: s
-      port_type: electrical
-      index: -2355
-    e54:
-      orientation: s
-      port_type: electrical
-      index: -2055
-    e53:
-      orientation: s
-      port_type: electrical
-      index: -1755
-    e52:
-      orientation: s
-      port_type: electrical
-      index: -1455
-    e51:
-      orientation: s
-      port_type: electrical
-      index: -1155
-    e50:
-      orientation: s
-      port_type: electrical
-      index: -855
-    e49:
-      orientation: s
-      port_type: electrical
-      index: -555
-    e48:
-      orientation: s
-      port_type: electrical
-      index: -255
-    e47:
-      orientation: s
-      port_type: electrical
-      index: 45
-    e46:
-      orientation: s
-      port_type: electrical
-      index: 345
-    e45:
-      orientation: s
-      port_type: electrical
-      index: 645
-    e44:
-      orientation: s
-      port_type: electrical
-      index: 945
-    e43:
-      orientation: s
-      port_type: electrical
-      index: 1245
-    e42:
-      orientation: s
-      port_type: electrical
-      index: 1545
-    e41:
-      orientation: s
-      port_type: electrical
-      index: 1845
-    e40:
-      orientation: s
-      port_type: electrical
-      index: 2145
-    e39:
-      orientation: s
-      port_type: electrical
-      index: 2445
-    e38:
-      orientation: s
-      port_type: electrical
-      index: 2745
-    e37:
-      orientation: s
-      port_type: electrical
-      index: 3045
-    e36:
-      orientation: s
-      port_type: electrical
-      index: 3345
-    e35:
-      orientation: s
-      port_type: electrical
-      index: 3645
-    e34:
-      orientation: s
-      port_type: electrical
-      index: 3945
-    e33:
-      orientation: s
-      port_type: electrical
-      index: 4245
-    e32:
-      orientation: s
-      port_type: electrical
-      index: 4545
-    e1:
-      orientation: 'n'
-      port_type: electrical
-      index: -4455
-    e2:
-      orientation: 'n'
-      port_type: electrical
-      index: -4155
-    e3:
-      orientation: 'n'
-      port_type: electrical
-      index: -3855
-    e4:
-      orientation: 'n'
-      port_type: electrical
-      index: -3555
-    e5:
-      orientation: 'n'
-      port_type: electrical
-      index: -3255
-    e6:
-      orientation: 'n'
-      port_type: electrical
-      index: -2955
-    e7:
-      orientation: 'n'
-      port_type: electrical
-      index: -2655
-    e8:
-      orientation: 'n'
-      port_type: electrical
-      index: -2355
-    e9:
-      orientation: 'n'
-      port_type: electrical
-      index: -2055
-    e10:
-      orientation: 'n'
-      port_type: electrical
-      index: -1755
-    e11:
-      orientation: 'n'
-      port_type: electrical
-      index: -1455
-    e12:
-      orientation: 'n'
-      port_type: electrical
-      index: -1155
-    e13:
-      orientation: 'n'
-      port_type: electrical
-      index: -855
-    e14:
-      orientation: 'n'
-      port_type: electrical
-      index: -555
-    e15:
-      orientation: 'n'
-      port_type: electrical
-      index: -255
-    e16:
-      orientation: 'n'
-      port_type: electrical
-      index: 45
-    e17:
-      orientation: 'n'
-      port_type: electrical
-      index: 345
-    e18:
-      orientation: 'n'
-      port_type: electrical
-      index: 645
-    e19:
-      orientation: 'n'
-      port_type: electrical
-      index: 945
-    e20:
-      orientation: 'n'
-      port_type: electrical
-      index: 1245
-    e21:
-      orientation: 'n'
-      port_type: electrical
-      index: 1545
-    e22:
-      orientation: 'n'
-      port_type: electrical
-      index: 1845
-    e23:
-      orientation: 'n'
-      port_type: electrical
-      index: 2145
-    e24:
-      orientation: 'n'
-      port_type: electrical
-      index: 2445
-    e25:
-      orientation: 'n'
-      port_type: electrical
-      index: 2745
-    e26:
-      orientation: 'n'
-      port_type: electrical
-      index: 3045
-    e27:
-      orientation: 'n'
-      port_type: electrical
-      index: 3345
-    e28:
-      orientation: 'n'
-      port_type: electrical
-      index: 3645
-    e29:
-      orientation: 'n'
-      port_type: electrical
-      index: 3945
-    e30:
-      orientation: 'n'
-      port_type: electrical
-      index: 4245
-    e31:
-      orientation: 'n'
-      port_type: electrical
-      index: 4545
-  mzi_heater:
-    e1:
-      orientation: w
-      port_type: electrical
-      index: 21
-    e2:
-      orientation: e
-      port_type: electrical
-      index: 21
-    o4:
-      orientation: e
-      port_type: optical
-      index: -1
-    o3:
-      orientation: e
-      port_type: optical
-      index: 1
-    o1:
-      orientation: w
-      port_type: optical
-      index: -1
-    o2:
-      orientation: w
-      port_type: optical
-      index: 1
-  ring_single:
-    o2:
-      orientation: e
-      port_type: optical
-      index: 0
-    o1:
-      orientation: w
-      port_type: optical
-      index: 0
-name: sample_die
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  ring1:
+    translation:
+      x: -208.84277
+      y: -196.89056
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  ring2:
+    translation:
+      x: -20.000015
+      y: -202.0
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+sizes:
+  d:
+    width: 784
+    height: 404
+  m2:
+    width: 100
+    height: 100
+  ring1:
+    width: 100
+    height: 100
+  ring2:
+    width: 100
+    height: 100
+link_paths: []
+layers:
+  d: 0
+  m2: 0
+  ring1: 0
+  ring2: 0
+fan_point_positions:
+  bundle5:
+    - x: -114.421394
+      y: -167.58391
+    - x: -213.0058
+      y: -103.861145
+  bundle6:
+    - x: -196.44418
+      y: -75.27846
+    - x: 36.679047
+      y: 293.53812
+  route1:
+    - x: -136.63208
+      y: -196.89056
+    - x: -92.21071
+      y: -202.0

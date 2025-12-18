@@ -6,24 +6,26 @@ import gdsfactory as gf
 import numpy as np
 from cspdk.si220.cband import LAYER
 from gdsfactory.component import Component
-from gdsfactory.typings import Float2, Layer
+from gdsfactory.typings import Layer
 
 layer = LAYER.WG
 layer1 = LAYER.WG
 
 
-@gf.cell(tags=["errors"])
-def width_min(size: Float2 = (0.1, 0.1)) -> Component:
+@gf.cell
+def width_min(width=0.1) -> Component:
+    """Minimum width for a waveguide."""
+    size = (width, width)
     return gf.components.rectangle(size=size, layer=layer)
 
 
-@gf.cell(tags=["errors"])
+@gf.cell
 def area_min() -> Component:
     size = (0.2, 0.2)
     return gf.components.rectangle(size=size, layer=layer)
 
 
-@gf.cell(tags=["errors"])
+@gf.cell
 def gap_min(gap: float = 0.1) -> Component:
     c = gf.Component()
     r1 = c << gf.components.rectangle(size=(1, 1), layer=layer)
@@ -33,7 +35,7 @@ def gap_min(gap: float = 0.1) -> Component:
     return c
 
 
-@gf.cell(tags=["errors"])
+@gf.cell
 def separation(
     gap: float = 0.1, layer1: Layer = (47, 0), layer2: Layer = (41, 0)
 ) -> Component:
@@ -45,7 +47,7 @@ def separation(
     return c
 
 
-@gf.cell(tags=["errors"])
+@gf.cell
 def enclosing(
     enclosing: float = 0.1, layer1: Layer = (40, 0), layer2: Layer = (41, 0)
 ) -> Component:
@@ -58,17 +60,21 @@ def enclosing(
     c = gf.Component()
     _ = c << gf.components.rectangle(size=(w1, w1), layer=layer1, centered=True)
     r2 = c << gf.components.rectangle(size=(w2, w2), layer=layer2, centered=True)
-    r2.dmovex(0.5)
+    r2.movex(0.5)
     return c
 
 
-@gf.cell(tags=["errors"])
+@gf.cell
 def sample_drc_errors() -> Component:
-    components = [width_min(), separation(), enclosing()]
+    """Write GDS with sample errors."""
+    components = [enclosing()]
+    components += [width_min(width=0.1)] * 100
 
-    for gap in np.linspace(0.1, 0.2, 5):
+    min_gap = 0.1
+    max_gap = 0.2
+
+    for gap in np.linspace(min_gap, max_gap, 5):
         components.append(gap_min(gap=gap))
 
-    c = gf.pack(components, spacing=1)
-    c = gf.add_padding_container(c[0], layers=(LAYER.FLOORPLAN,), default=5)
+    c = gf.pack(components, spacing=1)[0]
     return c

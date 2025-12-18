@@ -74,8 +74,8 @@ placements:
     x: 200
     'y': -200
   o4:
-    dx: 104.294
-    dy: -234.43
+    dx: 95.702
+    dy: -64.505
     rotation: 0
     mirror: false
   o2:
@@ -88,8 +88,8 @@ placements:
   o1:
     x: 50
     'y': -150
-    dx: 227.169
-    dy: 34.307
+    dx: 46.107
+    dy: 172.411
     rotation: 0
     mirror: false
   o3:
