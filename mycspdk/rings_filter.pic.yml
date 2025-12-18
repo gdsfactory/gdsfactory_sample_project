@@ -19,9 +19,9 @@ ports:
   o2: r2,o2
 placements:
   r1:
-    dx: 52.439
-    dy: 25.057
-    rotation: 0
+    dx: 50.12099838256836
+    dy: 52.65700149536133
+    rotation: 0.0
     mirror: false
   r2:
     dx: 128.26

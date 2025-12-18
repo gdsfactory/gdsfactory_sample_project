@@ -14,81 +14,11 @@ camera_transform:
     y: 1.1287336
     z: 1.0
 transforms:
-  h:
-    translation:
-      x: -119.37517
-      y: 393.8766
-      z: 0.1
-    rotation:
-      x: 0.0
-      y: 0.0
-      z: 0.0
-      w: 1.0
-    scale:
-      x: 1.0
-      y: 1.0
-      z: 1.0
-  c1:
-    translation:
-      x: -213.9877
-      y: -156.74902
-      z: 0.2
-    rotation:
-      x: 0.0
-      y: 0.0
-      z: 0.0
-      w: 1.0
-    scale:
-      x: 1.0
-      y: 1.0
-      z: 1.0
-  b3:
-    translation:
-      x: 63.026142
-      y: 238.5663
-      z: 0.3
-    rotation:
-      x: -0.9999999
-      y: 0.0
-      z: 0.0
-      w: 4.3711385e-08
-    scale:
-      x: 1.0
-      y: 1.0
-      z: -1.0
-  sr:
-    translation:
-      x: 374.51935
-      y: 161.61943
-      z: 0.4
-    rotation:
-      x: 0.0
-      y: 0.0
-      z: -0.70710677
-      w: 0.70710677
-    scale:
-      x: 1.0
-      y: 1.0
-      z: 1.0
-  sl:
-    translation:
-      x: -418.20294
-      y: 54.953144
-      z: 0.5
-    rotation:
-      x: 0.0
-      y: 0.0
-      z: -0.7071067
-      w: -0.7071067
-    scale:
-      x: 1.0
-      y: 1.0
-      z: 1.0
   b1:
     translation:
       x: -326.09183
       y: 0.010128021
-      z: 0.6
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -98,39 +28,67 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  b4:
-    translation:
-      x: 273.1631
-      y: 79.777725
-      z: 0.70000005
-    rotation:
-      x: 0.0
-      y: 0.99999994
-      z: 4.371139e-08
-      w: 0.0
-    scale:
-      x: 1.0
-      y: 1.0
-      z: -1.0
   b2:
     translation:
       x: -249.12036
       y: 240.23479
-      z: 0.8000001
+      z: 1.0
     rotation:
-      x: 0.7071067
-      y: 0.7071067
-      z: 3.090862e-08
-      w: 3.090862e-08
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: -1.0
+      y: 1.0
+      z: -1.0
+  b3:
+    translation:
+      x: 63.026142
+      y: 238.5663
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: -1.0
+      y: 1.0
+      z: -1.0
+  b4:
+    translation:
+      x: 273.1631
+      y: 79.777725
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: -1.0
+      y: 1.0
+      z: -1.0
+  c1:
+    translation:
+      x: -213.9877
+      y: -156.74902
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
     scale:
       x: 1.0
       y: 1.0
-      z: -1.0
+      z: 1.0
   c2:
     translation:
       x: 125.00882
       y: -190.86273
-      z: 0.9000001
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -144,7 +102,7 @@ transforms:
     translation:
       x: -177.46358
       y: 348.72876
-      z: 1.0000001
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -158,7 +116,7 @@ transforms:
     translation:
       x: -16.03121
       y: 336.2146
-      z: 1.1000001
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -168,25 +126,11 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-  o3:
+  h:
     translation:
-      x: 298.84152
-      y: -66.91399
-      z: 1.4000002
-    rotation:
-      x: 0.0
-      y: 0.0
-      z: 0.0
-      w: 1.0
-    scale:
-      x: 1.0
-      y: 1.0
+      x: -119.37517
+      y: 393.8766
       z: 1.0
-  o4:
-    translation:
-      x: 358.383
-      y: -170.54616
-      z: 1.3000002
     rotation:
       x: 0.0
       y: 0.0
@@ -214,7 +158,7 @@ transforms:
     translation:
       x: -459.00677
       y: -158.70251
-      z: 1.5000002
+      z: 1.0
     rotation:
       x: 0.0
       y: 0.0
@@ -224,80 +168,104 @@ transforms:
       x: 1.0
       y: 1.0
       z: 1.0
-port_configs:
-  bend_euler:
-    o1:
-      orientation: w
-      port_type: optical
-      index: 0.0
-    o2:
-      orientation: n
-      port_type: optical
-      index: 5.0
-  straight_heater_metal:
-    o1:
-      orientation: w
-      port_type: optical
-      index: 0.0
-    o2:
-      orientation: e
-      port_type: optical
-      index: 0.0
-    l_e1:
-      orientation: w
-      port_type: electrical
-      index: 0.0
-    l_e2:
-      orientation: n
-      port_type: electrical
-      index: -14.9
-    l_e3:
-      orientation: e
-      port_type: electrical
-      index: 0.0
-    l_e4:
-      orientation: s
-      port_type: electrical
-      index: -14.9
-    r_e1:
-      orientation: w
-      port_type: electrical
-      index: 0.0
-    r_e2:
-      orientation: n
-      port_type: electrical
-      index: 334.9
-    r_e3:
-      orientation: e
-      port_type: electrical
-      index: 0.0
-    r_e4:
-      orientation: s
-      port_type: electrical
-      index: 334.9
-  straight:
-    o1:
-      orientation: w
-      port_type: optical
-      index: 0.0
-    o2:
-      orientation: e
-      port_type: optical
-      index: 0.0
-  mmi2x2:
-    o1:
-      orientation: w
-      port_type: optical
-      index: -1.0
-    o2:
-      orientation: w
-      port_type: optical
-      index: 1.0
-    o3:
-      orientation: e
-      port_type: optical
-      index: 1.0
-    o4:
-      orientation: e
-      port_type: optical
-      index: -1.0
+  o3:
+    translation:
+      x: 298.84152
+      y: -66.91399
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  o4:
+    translation:
+      x: 358.383
+      y: -170.54616
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sl:
+    translation:
+      x: -418.20294
+      y: 54.953144
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+  sr:
+    translation:
+      x: 374.51935
+      y: 161.61943
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+    scale:
+      x: 1.0
+      y: 1.0
+      z: 1.0
+sizes:
+  b1:
+    width: 100
+    height: 100
+  b2:
+    width: 100
+    height: 100
+  b3:
+    width: 100
+    height: 100
+  b4:
+    width: 100
+    height: 100
+  c1:
+    width: 100
+    height: 100
+  c2:
+    width: 100
+    height: 100
+  h:
+    width: 100
+    height: 100
+  sl:
+    width: 100
+    height: 100
+  sr:
+    width: 100
+    height: 100
+link_paths: []
+layers:
+  b1: 0
+  b2: 0
+  b3: 0
+  b4: 0
+  c1: 0
+  c2: 0
+  h: 0
+  sl: 0
+  sr: 0
+fan_point_positions:
+  btm:
+    - x: 15.259689
+      y: -210.19606
+    - x: -104.23857
+      y: -176.08237

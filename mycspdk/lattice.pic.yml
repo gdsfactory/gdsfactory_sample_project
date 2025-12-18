@@ -17,21 +17,21 @@ routes:
     settings: {}
 nets: []
 ports:
-  o3: mzi2,o3
-  o1: mzi1,o1
   o2: mzi2,o4
+  o1: mzi1,o1
+  o3: mzi2,o3
 placements:
   mzi1:
     x: -183.72
     'y': 0
     rotation: 0
     mirror: false
-    dx: -3.851
-    dy: -14.302
+    dx: 115.683
+    dy: 392.795
   mzi2:
     x: mzi1,o2
     'y': 0
-    dx: 290.619
-    dy: 289.556
+    dx: 343.132
+    dy: 404.562
     rotation: 0
     mirror: false

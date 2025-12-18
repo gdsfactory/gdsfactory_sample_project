@@ -3,7 +3,7 @@
 import gdsfactory as gf
 
 
-@gf.cell(tags=["sample"])
+@gf.cell
 def sample3_grid():
     t1 = gf.components.text("1")
     t2 = gf.components.text("2")

@@ -6,7 +6,7 @@ import gdsfactory as gf
 from cspdk.si220.cband import cells
 
 
-@gf.cell(tags=["pads"])
+@gf.cell
 def pads_correct(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     """Returns 2 pads connected with metal wires."""
     c = gf.Component()
@@ -26,9 +26,9 @@ def pads_correct(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     tr.name = "tr"
     br.name = "br"
 
-    tl.dmove((0, 300))
-    br.dmove((500, 0))
-    tr.dmove((500, 500))
+    tl.move((0, 300))
+    br.move((500, 0))
+    tr.move((500, 500))
 
     c.add_label("tl", position=tl.dcenter, layer=layer)
     c.add_label("tr", position=tr.dcenter, layer=layer)
@@ -41,7 +41,7 @@ def pads_correct(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     return c
 
 
-@gf.cell(tags=["pads"])
+@gf.cell
 def pads_shorted(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     """Returns 2 pads connected with metal wires."""
     c = gf.Component()
@@ -60,9 +60,9 @@ def pads_shorted(pad=cells.pad, cross_section="metal_routing") -> gf.Component:
     tr.name = "tr"
     br.name = "br"
 
-    tl.dmove((0, 300))
-    br.dmove((500, 0))
-    tr.dmove((500, 500))
+    tl.move((0, 300))
+    br.move((500, 0))
+    tr.move((500, 500))
 
     c.add_label("tl", position=tl.dcenter, layer=layer)
     c.add_label("tr", position=tr.dcenter, layer=layer)
